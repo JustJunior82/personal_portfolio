@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto'
+}
+body{
+    margin: 5px;
+    background-color: aliceblue;
+}
+.dashboard{
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+/*============
+Navigation
+=============*/
+.dashboard .navigation {    /*==This styling deals with the entirety of the navigation bar=*/
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.dashboard .navigation img.logo{        /*==This styling deals with logo, specifically the rocket ship==*/
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.dashboard .navigation img.user{        /*==This styling deals with the user image, meant to reflect the profile of said user==*/
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.dashboard .navigation div .other_pages {     /*==This styling deals with recoloring, resizing, and reorienting the icon images==*/
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.dashboard .navigation div {        /*==Not totally sure of what this does, was just following the tutorial - I think it deals with making a larger margin for the icons?==*/
+    margin-top: 10px;
+}
+
+/*===============
+Main Dashboard
+=================*/
+
+.main .title {
+    text-align: center;
+}
+
+body .pictures {
+    text-align: center;
+}
+body .pictures img {
+    height: 250px;
+    padding: 15px;
+
+}
+
+/*===================
+Footer/Social Links
+=====================*/
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
